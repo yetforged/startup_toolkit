@@ -1,5 +1,19 @@
- node_modules/
+ # Node / React stuff
+node_modules/
 dist/
 .env
+.env.local
+.vite/
+
+# Editors & OS
 .vscode/
 .DS_Store
+*.log
+
+# Firebase
+.firebase/
+
+# Frontend/Backend specific
+/frontend/node_modules/
+/frontend/.env
+/backend/.env
